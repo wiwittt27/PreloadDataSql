@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(),HandlerCallBack {
         }
     }
 
-    //Ad MAin Activity
+    //Addd Main Activity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
