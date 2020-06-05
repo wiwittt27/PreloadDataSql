@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity(),HandlerCallBack {
         }
     }
 
-
+    //Ad MAin Activity
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -95,7 +95,9 @@ interface HandlerCallBack {
     fun updateProgress(progress: Long)
     fun loadSuccess()
     fun loadFailed()
+    //add
     fun loadCancel()
+
 
 }
 
